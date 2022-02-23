@@ -1,43 +1,99 @@
-
 .background {
-  background-size: cover;
-  background-position: center;
+	background-size: cover;
+	background-position: center;
 }
 
 .text-shadow {
-  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+	text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 .segoe {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.header1, .header2, .header3 {
-  line-height: 1.1em;
+.scroll-button {
+	display: block;
+}
+
+.w-fit-content {
+  width: fit-content;
+}
+
+.glass {
+	background-color: rgba(255, 255, 255, 0.15);
+	backdrop-filter: blur(5px);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+
+.glass-white {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.glass-dark {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.no-decoration {
+  list-style-type: none;
+}
+
+.link {
+  color: black;
+}
+
+.link:hover {
+  color:rgba(0, 0, 0, 0.6);
+}
+
+.header1,
+.header2,
+.header3 {
+	line-height: 1.1em;
 }
 
 .header1 {
-  font-size: 11vw;
+	font-size: 45px !important;
 }
 
 .header2 {
-  font-size: 5.5vw;
+	font-size: 22px !important;
 }
 
 .header3 {
-  font-size: 4vw;
+	font-size: 16px !important;
 }
 
-@media only screen and (min-width: 768px) {
-  .header1 {
-    font-size: 5.5vw;
+.header4 {
+  font-size: 14px !important;
+}
+
+.header4.dynamic {
+  font-size: 5vw !important;
+}
+
+@media only screen and (min-width: 425px) {
+	.scroll-button {
+		display: none;
+	}
+
+	.header1 {
+		font-size: 90px !important;
+	}
+
+	.header2 {
+		font-size: 55px !important;
+	}
+
+	.header3 {
+		font-size: 35px !important;
+	}
+
+  .header4 {
+    font-size: 18px !important;
   }
 
-  .header2 {
-    font-size: 4vw;
-  }
-
-  .header3 {
-    font-size: 3vw;
+  .w-md-25 {
+    width: 25%;
   }
 }

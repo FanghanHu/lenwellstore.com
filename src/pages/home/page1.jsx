@@ -6,7 +6,7 @@ import ScrollButton from "../../component/scroll-button";
 export default function Page1() {
     return (
         <div
-				className="vh-100 background text-center segoe"
+				className="vh-100 background position-relative text-center segoe"
 				style={{ backgroundImage: `url(${homeBackGround})` }}
 			>
 				<div className="d-flex flex-column justify-content-around h-100">
