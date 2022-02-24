@@ -1,4 +1,5 @@
 import './App.css';
+import "./dynamic-font-size.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from './pages/home';
 import { Route, Routes } from 'react-router-dom';
