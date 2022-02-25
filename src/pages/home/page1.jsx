@@ -23,7 +23,7 @@ export default function Page1() {
 					</div>
 
 					<div className="text-white">
-						<div className="h1 fw-normal">
+						<div className="display-4 fw-normal">
 							<Counter startNumber={10000} endNumber={35000} duration={3000} />+
 						</div>
 						<div className="h4 mt-1 fw-light">

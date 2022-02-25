@@ -8,7 +8,7 @@ export default function HomePage() {
 	return (
 		<div>
 			<Page1/>
-            <Page2/>
+			<Page2/>
             <Page3/>
             <Page4/>
 		</div>
