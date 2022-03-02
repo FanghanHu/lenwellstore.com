@@ -38,7 +38,7 @@ export default function Page2() {
 						<div className="text-center mt-5">
 							<div className="display-6 fw-bold">Need it fast?</div>
 							<div className="h6 fw-light">
-								We can get it done in under 30 mins
+								We can get it done under 30 mins
 							</div>
 						</div>
 					</div>

@@ -5,19 +5,19 @@ import amazon from "../../assets/amazon.png";
 
 export default function Page3() {
 	return (
-		<div className="segoe">
+		<div className="segoe py-1" style={{backgroundColor: "rgba(200, 245, 255, 0.2)"}}>
 			<div className="text-center my-5">
-				<div className="display-6 fw-bold mb-3">Original Replacement Parts</div>
+				<div className="display-6 fw-bold mb-3 pt-5">Original Replacement Parts</div>
 				<div className="h6 fw-light m-1">iPhone, iPad, Apple Watch LCD</div>
 				<div className="h6 fw-light m-1 mt-0">Samsung LCD</div>
 			</div>
 			<div className="container" style={{ marginBottom: "-10px", zIndex: -1}}>
 				<div className="row justify-content-between align-items-end">
 					<div className="col-7 col-lg-6">
-						<img src={ipads} alt="ipads" width="100%" />
+						<img src={ipads} style={{mixBlendMode: "multiply"}} alt="ipads" width="100%" />
 					</div>
 					<div className="col-4 col-lg-3">
-						<img src={samsung} alt="samsung" width="100%" />
+						<img src={samsung} style={{mixBlendMode: "multiply"}} alt="samsung" width="100%" />
 					</div>
 				</div>
 			</div>
@@ -39,7 +39,7 @@ export default function Page3() {
 					</div>
 				</div>
 			</div>
-			<div className="d-flex justify-content-center align-items-center m-4">
+			<div className="d-flex justify-content-center align-items-center m-5">
 				<div className="display-6 fw-bold me-4">Shop Online:</div>
 				<div>
 					<img className="ecommerce-icon" src={ebay} alt="eBay" />
