@@ -8,6 +8,7 @@ import Footer from "./component/footer";
 import NavBar from "./component/navbar";
 import NotFound from "./pages/not-found";
 import ContactUs from "./pages/contact-us";
+import LcdSwap from "./pages/lcd-swap";
 
 function App() {
 	return (
@@ -18,6 +19,7 @@ function App() {
 				<Route path="/" element={<HomePage />} />
 				<Route path="/about-us" element={<AboutUs />} />
 				<Route path="/contact-us" element={<ContactUs />} />
+				<Route path="/lcd-swap" element={<LcdSwap />} />
 				<Route path="*" element={<NotFound />} />
 			</Routes>
 

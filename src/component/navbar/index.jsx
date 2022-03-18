@@ -45,8 +45,8 @@ export default function NavBar() {
 					<img src={logo} alt="lenwell" />
 				</Link>
 				<div className="nav-link-list">
-					<Link to={{ pathname: "/Repair Service" }}>Repair Service</Link>
-					<Link to={{ pathname: "/lcd-swap-service" }}>LCD Swap Service</Link>
+					<Link to={{ pathname: "/repair-service" }}>Repair Service</Link>
+					<Link to={{ pathname: "/lcd-swap" }}>LCD Swap Service</Link>
 					<Link to={{ pathname: "/lcd-buyback" }}>LCD Buyback</Link>
 					<Link to={{ pathname: "/about-us" }}>About us</Link>
 					<Link to={{ pathname: "/contact-us" }}>Contact us</Link>

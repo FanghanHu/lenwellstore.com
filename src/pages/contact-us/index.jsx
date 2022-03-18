@@ -4,6 +4,7 @@ import GlassPanel from "../../component/glass-panel";
 import DirectionButton from "../../component/direction-button";
 
 export default function ContactUs() {
+    //send the contact us form
     return (
         <div>
             <div className="display-6 m-3 border-bottom w-fit-content">Contact Us</div>
@@ -32,7 +33,7 @@ export default function ContactUs() {
                     <input type="email" className="form-control" placeholder="name@example.com"/>
                 </div>
                 <div className="mb-3">
-                    <label className="form-label">Message: </label>
+                    <label className="form-label fw-light">Message: </label>
                     <textarea className="form-control" rows="5"></textarea>
                 </div>
                 <div className="d-flex justify-content-end">
