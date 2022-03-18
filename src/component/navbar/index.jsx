@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import logo from "../../assets/Lenwell-Digital-Logo-No-BG.png";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 export default function NavBar() {
@@ -8,6 +9,7 @@ export default function NavBar() {
 		//hide scrollbar when scrolling down, show it when scrolling back up
 		let lastScroll = window.pageYOffset;
 		const handleScroll = () => {
+			console.log("scrolling??", scroll, lastScroll);
 			const scroll = window.pageYOffset;
 
 			if(lastScroll > scroll) {
@@ -25,15 +27,15 @@ export default function NavBar() {
 
 	return (
 		<div className="nav-bar" ref={navRef}>
-            <a href="/">
+            <Link to={{pathname: "/"}}>
                 <img src={logo} alt="lenwell"/>
-            </a>
+            </Link>
 			<div className="nav-link-list">
-				<a href="/Repair Service">Repair Service</a>
-				<a href="/lcd-swap-service">LCD Swap Service</a>
-				<a href="/lcd-buyback">LCD Buyback</a>
-				<a href="/about-us">About us</a>
-				<a href="/contact-us">Contact us</a>
+				<Link to={{pathname: "/Repair Service"}}>Repair Service</Link>
+				<Link to={{pathname: "/lcd-swap-service"}}>LCD Swap Service</Link>
+				<Link to={{pathname: "/lcd-buyback"}}>LCD Buyback</Link>
+				<Link to={{pathname: "/about-us"}}>About us</Link>
+				<Link to={{pathname: "/contact-us"}}>Contact us</Link>
 			</div>
 		</div>
 	);

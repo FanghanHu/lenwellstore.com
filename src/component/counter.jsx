@@ -8,10 +8,15 @@ export default function Counter({startNumber, endNumber, duration}) {
 
 
     useEffect(() => {
+        let activeTimeout;
         if(display < endNumber) {
-            setTimeout(() => {
+            activeTimeout = setTimeout(() => {
                 setDisplay(Math.min(endNumber, display + step));
             }, TICK_RATE);
+        }
+
+        return () => {
+            clearTimeout(activeTimeout);
         }
     }, [display])
 

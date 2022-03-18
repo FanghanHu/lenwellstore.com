@@ -10,7 +10,7 @@ import NotFound from "./pages/not-found";
 
 function App() {
 	return (
-		<div>
+		<div className="d-flex flex-column justify-content-between" style={{minHeight: "100vh"}}>
 			<NavBar />
 
 			<Routes>
