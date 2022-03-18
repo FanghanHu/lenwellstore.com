@@ -29,10 +29,11 @@ export default function NavBar() {
                 <img src={logo} alt="lenwell"/>
             </a>
 			<div className="nav-link-list">
-				<a href="/about-us">About us</a>
-				<a href="/contact-us">Contact us</a>
+				<a href="/Repair Service">Repair Service</a>
 				<a href="/lcd-swap-service">LCD Swap Service</a>
 				<a href="/lcd-buyback">LCD Buyback</a>
+				<a href="/about-us">About us</a>
+				<a href="/contact-us">Contact us</a>
 			</div>
 		</div>
 	);
