@@ -1,8 +1,9 @@
 import "./style.css";
-import tag from "../../assets/google-maps.png";
 import { Link } from "react-router-dom";
+import DirectionButton from "../../component/direction-button";
 
 export default function AboutUs() {
+    //TODO: make the business hour text change depends on the time of day
 	return (
 		<div>
 			<div className="display-6 m-3 border-bottom w-fit-content">About us</div>
@@ -16,13 +17,7 @@ export default function AboutUs() {
 			</div>
 			<div className="m-5"></div>
 			<div className="d-flex justify-content-center">
-				<a
-					className="btn btn-dark direction-button"
-					href={`https://goo.gl/maps/NYGrZTB8EGiRn8ug7`}
-				>
-					<img src={tag} alt="direction" />
-					Direction
-				</a>
+				<DirectionButton/>
 			</div>
 			<div className="h3 text-center mt-5 border-bottom p-1">
 				Business Hours
