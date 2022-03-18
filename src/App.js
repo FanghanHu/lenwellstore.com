@@ -10,13 +10,13 @@ import NotFound from "./pages/not-found";
 
 function App() {
 	return (
-		<div className="d-flex flex-column vh-100">
-      <NavBar/>
+		<div>
+			<NavBar />
 
 			<Routes>
 				<Route path="/" element={<HomePage />} />
 				<Route path="/about-us" element={<AboutUs />} />
-        <Route path="*" element={<NotFound />} />
+				<Route path="*" element={<NotFound />} />
 			</Routes>
 
 			<Footer />
