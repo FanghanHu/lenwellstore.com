@@ -1,3 +1,30 @@
+.button {
+	border: none;
+	border-radius: 5px;
+	background: none;
+	padding: 0.2em 0.5em;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 300;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+.button-primary {
+	background: #4366C5;
+	color: white;
+}
+
+.button-primary:hover {
+	color: white;
+	background: #506fc2;
+}
+
+.button-primary:active {
+	color: white;
+	background: #506fc2;
+	box-shadow: 0 0 0 3px #5971c08c;
+}
+
 .background {
 	background-size: cover;
 	background-position: center;
