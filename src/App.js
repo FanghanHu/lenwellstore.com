@@ -9,12 +9,14 @@ import NavBar from "./component/navbar";
 import NotFound from "./pages/not-found";
 import ContactUs from "./pages/contact-us";
 import LcdSwap from "./pages/lcd-swap";
+import ScrollToTop from "./component/scroll-to-top";
 
 function App() {
 	return (
 		<div className="d-flex flex-column justify-content-between" style={{minHeight: "100vh"}}>
 			<NavBar />
-
+			
+			<ScrollToTop/>
 			<Routes>
 				<Route path="/" element={<HomePage />} />
 				<Route path="/about-us" element={<AboutUs />} />

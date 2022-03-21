@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import background from "../../assets/bg-home2.jpg";
 import swapIcon from "../../assets/mobile-repair-logo.svg";
 import ScrollButton from "../../component/scroll-button";
@@ -27,7 +28,7 @@ export default function Page2() {
 							<li>✓ Charging Port Repair</li>
 							<li>✓ Speaker Repair</li>
 						</ul>
-						<div className="btn btn-primary h5 p-1">Price Estimate</div>
+						<Link to="/repair-service" className="btn btn-primary h5 p-1">Price Estimate</Link>
 					</div>
 					<div className="w-md-25"></div>
 				</div>
@@ -48,9 +49,9 @@ export default function Page2() {
 						<div>Walk out in 30 mins</div>
 						<div>We use genuine LCD only</div>
 						<div>Fix broken screen, touch issue</div>
-						<a className="link mt-5" href="#">
+						<Link className="link mt-5" to="/lcd-swap">
 							Learn more
-						</a>
+						</Link>
 					</div>
 				</div>
 			</div>
