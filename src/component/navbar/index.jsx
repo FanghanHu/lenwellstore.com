@@ -39,7 +39,7 @@ export default function NavBar() {
 	})
 
 	return (
-		<div id="caasdasd" style={{minHeight: navHeight}}>
+		<div style={{minHeight: navHeight}}>
 			<div className="nav-bar" ref={navRef}>
 				<Link to={{ pathname: "/" }}>
 					<img src={logo} alt="lenwell" />

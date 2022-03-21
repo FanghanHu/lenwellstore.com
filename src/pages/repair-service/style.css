@@ -1,0 +1,18 @@
+.device-type-button img {
+    width: 150px;
+}
+
+.device-type-button {
+    color: black;
+    text-decoration: none;
+}
+
+.device-type-button:hover {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+@media only screen and (min-width: 768px) {
+    .device-type-button img {
+        width: 300px;
+    }
+}
