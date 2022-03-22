@@ -12,6 +12,7 @@ import LcdSwap from "./pages/lcd-swap";
 import ScrollToTop from "./component/scroll-to-top";
 import RepairService from "./pages/repair-service";
 import ModelList from "./pages/model-list";
+import LcdBuyback from "./pages/lcd-buyback";
 
 function App() {
 	return (
@@ -25,6 +26,7 @@ function App() {
 				<Route path="lcd-swap" element={<LcdSwap />} />
 				<Route path="repair-service" element={<RepairService />}/>
 				<Route path="repair-service/:deviceType" element={<ModelList />}/>
+				<Route path="lcd-buyback" element={<LcdBuyback/>} />
 				<Route path="*" element={<NotFound />} />
 			</Routes>
 
