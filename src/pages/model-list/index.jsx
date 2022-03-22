@@ -1,6 +1,6 @@
 import "./style.css";
 import banner from "../../assets/bg-home3.jpg";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import DEVICE_MODELS from "../../assets/models";
 import { useState } from "react";
 
@@ -17,6 +17,11 @@ export default function ModelList() {
 				style={{ backgroundImage: `url(${banner})`, height: "350px" }}
 			>
             </div>
+            <div className="p-3 py-3">
+                <Link to={-1}>
+                    Back
+                </Link>
+            </div>
             <div className="input-group m-3 mx-auto" style={{width: "20em"}}>
                 <span className="input-group-text">Find</span>
                 <input 
@@ -27,7 +32,9 @@ export default function ModelList() {
                     onChange={(e) => setFilter(e.target.value)}
                 />
             </div>
-            <table className="table table-striped align-items-center my-5 mx-auto" style={{ maxWidth : "1024px", verticalAlign: "middle"}}>
+            <div style={{overflowX: "auto", width: "100vw"}}>
+
+            <table className="table table-striped align-items-center my-3 mx-auto" style={{ maxWidth : "1300px", verticalAlign: "middle"}}>
                     <thead>
                         <tr>
                             <th>Model Name</th>
@@ -35,6 +42,7 @@ export default function ModelList() {
                             <th>Glass Repair</th>
                             <th>Touch Repair</th>
                             <th>LCD Repair</th>
+                            <th>Backdoor Repair</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -51,11 +59,13 @@ export default function ModelList() {
                                         <td>{model[2] ? "$" + model[2] : ""}</td>
                                         <td>{model[3] ? "$" + model[3] : ""}</td>
                                         <td>{model[4] ? "$" + model[4] : ""}</td>
+                                        <td>{model[5] ? "$" + model[5] : ""}</td>
                                     </tr>
                                 );
                         })}
                     </tbody>
                 </table>
+            </div>
         </div>
     );
 }
