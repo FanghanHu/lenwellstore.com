@@ -13,6 +13,8 @@ import ScrollToTop from "./component/effects/scroll-to-top";
 import RepairService from "./pages/repair-service";
 import ModelList from "./pages/model-list";
 import LcdBuyback from "./pages/lcd-buyback";
+import ReturnPolicy from "./pages/return-policy";
+import TrademarkDisclaimer from "./pages/trademark-disclaimer";
 
 function App() {
 	return (
@@ -27,6 +29,8 @@ function App() {
 				<Route path="repair-service" element={<RepairService />}/>
 				<Route path="repair-service/:deviceType" element={<ModelList />}/>
 				<Route path="lcd-buyback" element={<LcdBuyback/>} />
+				<Route path="return-policy" element={<ReturnPolicy/>} />
+				<Route path="trademark-disclaimer" element={<TrademarkDisclaimer/>} />
 				<Route path="*" element={<NotFound />} />
 			</Routes>
 
