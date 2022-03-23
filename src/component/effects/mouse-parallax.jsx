@@ -31,8 +31,9 @@ export default function MouseParallax({image, imageScale=110, isReverse=false, t
 
     return (
         <img src={image} alt="parallax" ref={ref} className={className} style={{
-            minWidth: imageScale + "%",
-            minHeight: imageScale + "%",
+            width: imageScale + "%",
+            height: imageScale + "%",
+            objectFit: "cover",
             position: "absolute",
             zIndex: -1,
             top: -(imageScale-100)/2 + "%",
