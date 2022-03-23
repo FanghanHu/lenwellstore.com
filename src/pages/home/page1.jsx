@@ -1,14 +1,15 @@
-import homeBackGround from "../../assets/bg-home.jpg";
+import homeBackground from "../../assets/bg-home.jpg";
 import logo from "../../assets/Lenwell-Digital-Logo-No-BG.png";
 import Counter from "../../component/counter";
+import MouseParallax from "../../component/effects/mouse-parallax";
 import ScrollButton from "../../component/scroll-button";
 
 export default function Page1() {
     return (
         <div
-				className="vh-100 background position-relative text-center segoe"
-				style={{ backgroundImage: `url(${homeBackGround})` }}
+				className="vh-100 position-relative text-center segoe overflow-hidden"
 			>
+					<MouseParallax image={homeBackground} isReverse={true}/>
 				<div className="d-flex flex-column justify-content-around h-100">
 					<div className="d-flex flex-column justify-content-center align-items-center">
 						<img className="my-5 logo-white" src={logo} alt="lenwell" />

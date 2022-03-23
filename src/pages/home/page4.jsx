@@ -8,7 +8,7 @@ export default function Page4() {
 	return (
 		<div className="segoe">
 			<div
-				className="background px-2 px-md-3 py-2 py-lg-5 text-white text-center"
+				className="background background-scroll-parallax px-2 px-md-3 py-2 py-lg-5 text-white text-center"
 				style={{ backgroundImage: `url(${background})` }}
 			>
 				<div className="mt-5 mb-1 display-5 fw-bold">LCD Buyback</div>

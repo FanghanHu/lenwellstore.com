@@ -15,7 +15,7 @@ export default function Page2() {
 				</div>
 			</div>
 			<div
-				className="background px-2 px-md-3 py-2 py-lg-5"
+				className="background background-scroll-parallax px-2 px-md-3 py-2 py-lg-5"
 				style={{ backgroundImage: `url(${background})` }}
 			>
 				<div className="d-flex justify-content-center">

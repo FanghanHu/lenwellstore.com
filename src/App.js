@@ -9,7 +9,7 @@ import NavBar from "./component/navbar";
 import NotFound from "./pages/not-found";
 import ContactUs from "./pages/contact-us";
 import LcdSwap from "./pages/lcd-swap";
-import ScrollToTop from "./component/scroll-to-top";
+import ScrollToTop from "./component/effects/scroll-to-top";
 import RepairService from "./pages/repair-service";
 import ModelList from "./pages/model-list";
 import LcdBuyback from "./pages/lcd-buyback";
