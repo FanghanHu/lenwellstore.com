@@ -7,11 +7,11 @@ export default function Page2() {
 	return (
 		<div className="segoe" id="page2">
 			<div className="container">
-				<div className="mx-2 my-1 my-sm-2 my-md-3 my-lg-5">
-					<div className="h2 text-shadow mb-1">
+				<div className="mx-2 my-3 my-sm-2 my-md-3 my-lg-5">
+					<div className="h3 mb-1">
 						Fast and Reliable Repair Service
 					</div>
-					<div className="h3 text-muted">For Apple and Samsung devices</div>
+					<div className="h5 text-muted">For Apple and Samsung devices</div>
 				</div>
 			</div>
 			<div
