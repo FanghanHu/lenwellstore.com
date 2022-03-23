@@ -42,9 +42,13 @@ export default function Page3() {
 			<div className="d-flex justify-content-center align-items-center m-5">
 				<div className="display-6 fw-bold me-4">Shop Online:</div>
 				<div>
-					<img className="ecommerce-icon" src={ebay} alt="eBay" />
+					<a href="https://www.ebay.com/str/lenwellscreenfactory">
+						<img className="ecommerce-icon" src={ebay} alt="eBay" />
+					</a>
 					<hr/>
-					<img className="ecommerce-icon" src={amazon} alt="amazon" />
+					<a href="https://www.amazon.com/s?me=A102LBUVI7JL8T&marketplaceID=ATVPDKIKX0DER">
+						<img className="ecommerce-icon" src={amazon} alt="amazon" />
+					</a>
 				</div>
 			</div>
 		</div>

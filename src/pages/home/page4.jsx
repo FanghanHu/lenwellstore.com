@@ -2,6 +2,7 @@ import background from "../../assets/bg-home4.jpg";
 import packages from "../../assets/icon-package.png";
 import money from "../../assets/icon-money.png";
 import tablet from "../../assets/icon-tablet.png";
+import { Link } from "react-router-dom";
 
 export default function Page4() {
 	return (
@@ -14,9 +15,9 @@ export default function Page4() {
 				<div className="h6 fw-light mt-3 mb-5">
 					Sell your broken screen to us
 				</div>
-				<div className="h6 fw-light text-decoration-underline mb-5">
+				<Link to="/lcd-buyback" className="h6 text-white fw-light text-decoration-underline mb-5">
 					learn more
-				</div>
+				</Link>
 			</div>
 			<div className="d-flex flex-column flex-md-row justify-content-center align-items-center p-5 text-center">
 				<div className="m-2 m-lg-5">
