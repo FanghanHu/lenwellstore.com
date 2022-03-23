@@ -1,6 +1,7 @@
 import "./style.css";
 import tile from "../../assets/tile.png"
 import logo from "../../assets/Lenwell-Digital-Logo-No-BG.png";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
     return (
@@ -8,16 +9,16 @@ export default function Footer() {
             <div className="container">
                 <div className="row">
                     <div className="col-6 text-center d-flex flex-column justify-content-center" style={{borderRight:"1px solid gray"}}>
-                        <a href="/"><img src={logo} alt="lenwell" style={{width: "min(300px, 100%)"}} /></a>
+                        <Link to="/"><img src={logo} alt="lenwell" style={{width: "min(300px, 100%)"}} /></Link>
                         <div className="text-muted" style={{fontSize: "0.8em"}}>© All rights reserved</div>
                     </div>
                     <div className="col-6 py-4 px-3 px-md-5">
                         <ul className="list-unstyled">
-                            <li><a className="footer-link" href="/contact-us">Contact us</a></li>
-                            <li><a className="footer-link" href="/about-us">About us</a></li>
-                            <li><a className="footer-link" href="/repair-service">Repair Service</a></li>
-                            <li><a className="footer-link" href="/trademark-disclaimer">Trademark Disclaimer</a></li>
-                            <li><a className="footer-link" href="/return-policy">Return Policy</a></li>
+                            <li><Link className="footer-link" to="/contact-us">Contact us</Link></li>
+                            <li><Link className="footer-link" to="/about-us">About us</Link></li>
+                            <li><Link className="footer-link" to="/repair-service">Repair Service</Link></li>
+                            <li><Link className="footer-link" to="/trademark-disclaimer">Trademark Disclaimer</Link></li>
+                            <li><Link className="footer-link" to="/return-policy">Return Policy</Link></li>
                         </ul>
                     </div>
                 </div>
