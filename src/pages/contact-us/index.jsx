@@ -54,13 +54,13 @@ export default function ContactUs() {
             <div className="mx-auto mb-4" style={{width: "max(350px, min(60%, 700px))"}}>
                 <div className="mb-3">
                     <label className="form-label fw-light">Email:</label>
-                    <input type="email" className="form-control" placeholder="name@example.com" value={email} onChange={(e)=> {
+                    <input type="email" className="form-control" placeholder="John@example.com" value={email} onChange={(e)=> {
                             setEmail(e.target.value);
                     }} />
                 </div>
                 <div className="mb-3">
                     <label className="form-label fw-light">Message: </label>
-                    <textarea className="form-control" rows="5" value={message} onChange={(e)=> {
+                    <textarea className="form-control" rows="5" placeholder="Hey, My name is John, and I have a question, please give me a call at (123) 456-7890." value={message} onChange={(e)=> {
                             setMessage(e.target.value);
                     }} ></textarea>
                 </div>

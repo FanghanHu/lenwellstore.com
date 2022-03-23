@@ -76,7 +76,7 @@ export default function LcdBuyback() {
 						We offer loyalty discounts for companies that both sells us LCDs and
 						uses our repair service or purchase replacement parts from us.
 						depends on the monthly volume, we offer discounts from 5% to 15% on
-						all items or services.
+						all items and services.
 					</p>
 					<p className="my-3">
 						Business, especially cellphone or electronics repair shops can use
