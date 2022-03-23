@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/lenwellstore.com/static/css/main.a8a1a1d2.css",
+    "main.js": "/lenwellstore.com/static/js/main.8ee2de59.js",
+    "static/js/787.9f833daa.chunk.js": "/lenwellstore.com/static/js/787.9f833daa.chunk.js",
+    "static/media/bg-home5.jpg": "/lenwellstore.com/static/media/bg-home5.b8c60f99bc5f8ab754c5.jpg",
+    "static/media/bg-home4.jpg": "/lenwellstore.com/static/media/bg-home4.27a9c5fc876bffadfb3e.jpg",
+    "static/media/bg-home.jpg": "/lenwellstore.com/static/media/bg-home.aff95e5e3390e070160c.jpg",
+    "static/media/bg-home2.jpg": "/lenwellstore.com/static/media/bg-home2.3a50348029e52b3be1c5.jpg",
+    "static/media/bg-home3.jpg": "/lenwellstore.com/static/media/bg-home3.dc65ea190e0ee985e70d.jpg",
+    "static/media/phone-repiar.jpg": "/lenwellstore.com/static/media/phone-repiar.708adddb2943c3e8b3c0.jpg",
+    "static/media/bg-home6.jpg": "/lenwellstore.com/static/media/bg-home6.d464a3c5d23f78cb8883.jpg",
+    "static/media/samsung.jpg": "/lenwellstore.com/static/media/samsung.84ed7eb02558f374c2f1.jpg",
+    "static/media/iPads.jpg": "/lenwellstore.com/static/media/iPads.cb90893575f57a0fa6c7.jpg",
+    "static/media/icon-package.png": "/lenwellstore.com/static/media/icon-package.58ace227388f4bc6f7bb.png",
+    "static/media/google-maps.png": "/lenwellstore.com/static/media/google-maps.dc3b637d7368ffd8c203.png",
+    "static/media/Lenwell-Digital-Logo-No-BG.png": "/lenwellstore.com/static/media/Lenwell-Digital-Logo-No-BG.b20839c31fd69d73151f.png",
+    "static/media/icon-money.png": "/lenwellstore.com/static/media/icon-money.b64c9e251493c57411a3.png",
+    "static/media/tile.png": "/lenwellstore.com/static/media/tile.376f546c7f1dcd55c915.png",
+    "static/media/mobile-repair-logo.svg": "/lenwellstore.com/static/media/mobile-repair-logo.76f4b72df5621ca6065324492c610f33.svg",
+    "index.html": "/lenwellstore.com/index.html",
+    "main.a8a1a1d2.css.map": "/lenwellstore.com/static/css/main.a8a1a1d2.css.map",
+    "main.8ee2de59.js.map": "/lenwellstore.com/static/js/main.8ee2de59.js.map",
+    "787.9f833daa.chunk.js.map": "/lenwellstore.com/static/js/787.9f833daa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8a1a1d2.css",
+    "static/js/main.8ee2de59.js"
+  ]
+}
