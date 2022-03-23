@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lenwellstore.com/static/css/main.a8a1a1d2.css",
-    "main.js": "/lenwellstore.com/static/js/main.8ee2de59.js",
+    "main.js": "/lenwellstore.com/static/js/main.79ff745a.js",
     "static/js/787.9f833daa.chunk.js": "/lenwellstore.com/static/js/787.9f833daa.chunk.js",
     "static/media/bg-home5.jpg": "/lenwellstore.com/static/media/bg-home5.b8c60f99bc5f8ab754c5.jpg",
     "static/media/bg-home4.jpg": "/lenwellstore.com/static/media/bg-home4.27a9c5fc876bffadfb3e.jpg",
@@ -20,11 +20,11 @@
     "static/media/mobile-repair-logo.svg": "/lenwellstore.com/static/media/mobile-repair-logo.76f4b72df5621ca6065324492c610f33.svg",
     "index.html": "/lenwellstore.com/index.html",
     "main.a8a1a1d2.css.map": "/lenwellstore.com/static/css/main.a8a1a1d2.css.map",
-    "main.8ee2de59.js.map": "/lenwellstore.com/static/js/main.8ee2de59.js.map",
+    "main.79ff745a.js.map": "/lenwellstore.com/static/js/main.79ff745a.js.map",
     "787.9f833daa.chunk.js.map": "/lenwellstore.com/static/js/787.9f833daa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8a1a1d2.css",
-    "static/js/main.8ee2de59.js"
+    "static/js/main.79ff745a.js"
   ]
 }
