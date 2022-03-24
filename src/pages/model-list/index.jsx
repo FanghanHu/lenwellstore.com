@@ -47,7 +47,7 @@ export default function ModelList() {
         if(customer["business_and_full_name"].includes("VIP3")) discount = 5;
     }
 
-    const applyDiscount = (price) => (price * (100 + discount) / 100).toFixed(2);
+    const applyDiscount = (price) => (price * (100 - discount) / 100).toFixed(2);
 
     return (
         <div>
