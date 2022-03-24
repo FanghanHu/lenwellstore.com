@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a8a1a1d2.css",
-    "main.js": "/static/js/main.f90fa00d.js",
+    "main.css": "/static/css/main.a17a01b4.css",
+    "main.js": "/static/js/main.990faf06.js",
     "static/js/787.9f833daa.chunk.js": "/static/js/787.9f833daa.chunk.js",
     "static/media/bg-home5.jpg": "/static/media/bg-home5.b8c60f99bc5f8ab754c5.jpg",
     "static/media/bg-home4.jpg": "/static/media/bg-home4.27a9c5fc876bffadfb3e.jpg",
@@ -19,12 +19,12 @@
     "static/media/tile.png": "/static/media/tile.376f546c7f1dcd55c915.png",
     "static/media/mobile-repair-logo.svg": "/static/media/mobile-repair-logo.76f4b72df5621ca6065324492c610f33.svg",
     "index.html": "/index.html",
-    "main.a8a1a1d2.css.map": "/static/css/main.a8a1a1d2.css.map",
-    "main.f90fa00d.js.map": "/static/js/main.f90fa00d.js.map",
+    "main.a17a01b4.css.map": "/static/css/main.a17a01b4.css.map",
+    "main.990faf06.js.map": "/static/js/main.990faf06.js.map",
     "787.9f833daa.chunk.js.map": "/static/js/787.9f833daa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8a1a1d2.css",
-    "static/js/main.f90fa00d.js"
+    "static/css/main.a17a01b4.css",
+    "static/js/main.990faf06.js"
   ]
 }
