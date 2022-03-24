@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.a17a01b4.css",
-    "main.js": "/static/js/main.1de1b1bf.js",
+    "main.js": "/static/js/main.f6d02626.js",
     "static/js/787.9f833daa.chunk.js": "/static/js/787.9f833daa.chunk.js",
-    "static/media/bg-home5.jpg": "/static/media/bg-home5.b8c60f99bc5f8ab754c5.jpg",
-    "static/media/bg-home4.jpg": "/static/media/bg-home4.27a9c5fc876bffadfb3e.jpg",
+    "static/media/bg-home7.jpg": "/static/media/bg-home7.f9b65b9a16f81e9c0627.jpg",
     "static/media/bg-home.jpg": "/static/media/bg-home.aff95e5e3390e070160c.jpg",
     "static/media/bg-home2.jpg": "/static/media/bg-home2.3a50348029e52b3be1c5.jpg",
+    "static/media/bg-home4.jpg": "/static/media/bg-home4.dc87eba7300e38084d2f.jpg",
+    "static/media/bg-home5.jpg": "/static/media/bg-home5.b4916c465815b1b50d05.jpg",
     "static/media/bg-home3.jpg": "/static/media/bg-home3.dc65ea190e0ee985e70d.jpg",
     "static/media/phone-repiar.jpg": "/static/media/phone-repiar.708adddb2943c3e8b3c0.jpg",
     "static/media/bg-home6.jpg": "/static/media/bg-home6.d464a3c5d23f78cb8883.jpg",
@@ -20,11 +21,11 @@
     "static/media/mobile-repair-logo.svg": "/static/media/mobile-repair-logo.76f4b72df5621ca6065324492c610f33.svg",
     "index.html": "/index.html",
     "main.a17a01b4.css.map": "/static/css/main.a17a01b4.css.map",
-    "main.1de1b1bf.js.map": "/static/js/main.1de1b1bf.js.map",
+    "main.f6d02626.js.map": "/static/js/main.f6d02626.js.map",
     "787.9f833daa.chunk.js.map": "/static/js/787.9f833daa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a17a01b4.css",
-    "static/js/main.1de1b1bf.js"
+    "static/js/main.f6d02626.js"
   ]
 }
