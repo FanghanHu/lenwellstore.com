@@ -14,7 +14,7 @@ export default function Footer() {
                     </div>
                     <div className="col-6 py-4 px-3 px-md-5">
                         <ul className="list-unstyled">
-                            <li><Link className="footer-link" to="/referrer">become a referrer</Link></li>
+                            <li><Link className="footer-link" to="/referrer">Become a referrer</Link></li>
                             <li><Link className="footer-link" to="/contact-us">Contact us</Link></li>
                             <li><Link className="footer-link" to="/about-us">About us</Link></li>
                             <li><Link className="footer-link" to="/repair-service">Repair Service</Link></li>
