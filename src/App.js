@@ -15,6 +15,8 @@ import ModelList from "./pages/model-list";
 import LcdBuyback from "./pages/lcd-buyback";
 import ReturnPolicy from "./pages/return-policy";
 import TrademarkDisclaimer from "./pages/trademark-disclaimer";
+import OrderOnline from "./pages/order-online";
+import Referrer from "./pages/referrer";
 
 function App() {
 	return (
@@ -31,6 +33,8 @@ function App() {
 				<Route path="lcd-buyback" element={<LcdBuyback/>} />
 				<Route path="return-policy" element={<ReturnPolicy/>} />
 				<Route path="trademark-disclaimer" element={<TrademarkDisclaimer/>} />
+				<Route path="order-online" element={<OrderOnline/>} />
+				<Route path="referrer" element={<Referrer/>} />
 				<Route path="*" element={<NotFound />} />
 			</Routes>
 
