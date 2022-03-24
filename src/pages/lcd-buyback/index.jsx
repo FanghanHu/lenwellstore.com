@@ -11,7 +11,7 @@ export default function LcdBuyback() {
 				LCD Buyback
 			</div>
 			<div className="container">
-				<div clas sName="row">
+				<div className="row">
 					<div className="col-12 col-md-6 p-3">
 						<img className="rounded w-100" src={banner} alt="lcd buyback" />
 					</div>
