@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a17a01b4.css",
-    "main.js": "/static/js/main.a639d8b5.js",
+    "main.js": "/static/js/main.97b0ff2c.js",
     "static/js/787.9f833daa.chunk.js": "/static/js/787.9f833daa.chunk.js",
     "static/media/bg-home7.jpg": "/static/media/bg-home7.f9b65b9a16f81e9c0627.jpg",
     "static/media/bg-home.jpg": "/static/media/bg-home.aff95e5e3390e070160c.jpg",
@@ -21,11 +21,11 @@
     "static/media/mobile-repair-logo.svg": "/static/media/mobile-repair-logo.76f4b72df5621ca6065324492c610f33.svg",
     "index.html": "/index.html",
     "main.a17a01b4.css.map": "/static/css/main.a17a01b4.css.map",
-    "main.a639d8b5.js.map": "/static/js/main.a639d8b5.js.map",
+    "main.97b0ff2c.js.map": "/static/js/main.97b0ff2c.js.map",
     "787.9f833daa.chunk.js.map": "/static/js/787.9f833daa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a17a01b4.css",
-    "static/js/main.a639d8b5.js"
+    "static/js/main.97b0ff2c.js"
   ]
 }
